@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <center>
+        <div class="text">
+            <h1>Calculator By Ritik</h1>
+        </div>
+        <div class="calculator">
+        <input type="text" name="display" id="display">
+        <br>
+        <input class="button" type="button" value="1" onclick="fun(1)">
+        <input class="button" type="button" value="2" onclick="fun(2)">
+        <input class="button" type="button" value="3" onclick="fun(3)">
+        <input class="button" type="button" value="-" onclick="fun('-')">
+        <br>
+        <input class="button" type="button" value="4" onclick="fun(4)">
+        <input class="button" type="button" value="5" onclick="fun(5)">
+        <input class="button" type="button" value="6" onclick="fun(6)">
+        <input class="button" type="button" value="/" onclick="fun('/')">
+        <br>
+        <input class="button" type="button" value="7" onclick="fun(7)">
+        <input class="button" type="button" value="8" onclick="fun(8)">
+        <input class="button" type="button" value="9" onclick="fun(9)">
+        <button class="button" onclick="document.getElementById('display').value = ''">c</button>
+        <br>
+        <input class="button" type="button" value="0" onclick="fun(0)">
+        <input class="button" type="button" value="+" onclick="fun('+')">
+        <input class="button" type="button" value="=" onclick="result()">
+        <input class="button" type="button" value="x" onclick="fun('*')">
+        <br>
+        </div>
+        <div class="text">
+            <h1>Thank you</h1>
+        </div>
+</center>
+<!--completed-->
+<script src="script.js"></script>
+</body>
+</html>
